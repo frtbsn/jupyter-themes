@@ -256,8 +256,8 @@ def style_layout(style_less,
     promptBorder = '2px solid @prompt-line'
     tcPromptBorder = '2px solid @tc-prompt-std'
     promptMinWidth = 11.5
-    outpromptMinWidth = promptMinWidth +.5 # remove + 3 since it will overlay output print() text
-    tcPromptWidth = promptMinWidth + .5
+    outpromptMinWidth = promptMinWidth # remove + 3 since it will overlay output print() text
+    tcPromptWidth = promptMinWidth + 3
     tcPromptFontsize = "@prompt-fontsize"
     ccOutputBG = '@cc-output-bg-default'
 
@@ -266,8 +266,8 @@ def style_layout(style_less,
     if altprompt:
         promptPadding = '.1em'
         promptMinWidth = 8
-        outpromptMinWidth = promptMinWidth + .5
-        tcPromptWidth = promptMinWidth + .5
+        outpromptMinWidth = promptMinWidth + 3
+        tcPromptWidth = promptMinWidth + 3
         promptText = 'transparent'
         tcPromptBorder = '2px solid transparent'
     if altmd:
@@ -333,7 +333,7 @@ def toggle_settings(
 
     toggle = ''
     if toolbar:
-        toggle += 'div#maintoolbar {margin-left: -4px !important;}\n'
+        toggle += 'div#maintoolbar {margin-left: 8px !important;}\n'
         toggle += '.toolbar.container {width: 100% !important;}\n'
     else:
         toggle += 'div#maintoolbar {display: none !important;}\n'
@@ -495,7 +495,8 @@ def get_colors(theme='grade3', c='default', get_dict=False):
                  'o': '#ff914d',
                  'r': '#DB797C',
                  'p': '#c776df',
-                 'g': '#94c273'}
+                 'g': '#94c273',
+                 'w': '#ffffff'}
 
     cdict['x'] = '@cc-input-fg'
 
