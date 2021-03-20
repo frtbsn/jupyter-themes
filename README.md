@@ -30,7 +30,7 @@ jtplot.style(theme='onedork', context='notebook', ticks=True, grid=False)
 - Hinterland
 - Freeze
 - Autopep8
-- Scartchpad
+- Scratchpad
 - Skip traceback
 - Hide input all
 - Tree Filter
