@@ -1,10 +1,10 @@
-### [Source](https://github.com/dunovank/jupyter-themes). Darkula theme from Pycharm added.
+### Darkula theme from Pycharm added ([Source](https://github.com/dunovank/jupyter-themes)).
 
 ```bash
 jt -t darcula  -fs 12 -tfs 12 -nfs 12 -ofs 11 -dfs 11 -cellw 75% -cursc w -T
 ```
 
-##### For In ~/.ipython/profile_defaut/startup.py : 
+##### In ~/.ipython/profile_defaut/startup/***.py : 
 
 ```python
 from jupyterthemes import jtplot
