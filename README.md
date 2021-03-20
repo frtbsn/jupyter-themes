@@ -1,4 +1,4 @@
-### Darkula theme from Pycharm added ([Source](https://github.com/dunovank/jupyter-themes)).
+### Darcula theme from Pycharm added ([Source](https://github.com/dunovank/jupyter-themes)).
 
 ##### Run in bash : 
 
