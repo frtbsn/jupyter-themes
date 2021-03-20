@@ -20,3 +20,17 @@ jtplot.style(theme='onedork', context='notebook', ticks=True, grid=False)
 # spines=False
 # gridlines='--'
 ```
+
+
+##### Extentions
+- Autosavetime
+- Hide header
+- Jupyter js widget extention
+- Nbextentions dashboard tab
+- Hinterland
+- Freeze
+- Autopep8
+- Scartchpad
+- Skip traceback
+- Hide input all
+- Tree Filter
