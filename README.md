@@ -1,6 +1,6 @@
 ### Darcula theme from Pycharm added ([Source](https://github.com/dunovank/jupyter-themes)).
 
-##### Run in bash : 
+##### Run in bash on of the following : 
 
 ```bash
 jt -t darcula  -fs 12 -tfs 12 -nfs 12 -ofs 11 -dfs 11 -cellw 75% -cursc w -T |
